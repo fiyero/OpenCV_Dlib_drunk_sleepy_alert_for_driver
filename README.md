@@ -28,3 +28,10 @@ Play a loud music / alarm ringtone to scare him!
 ### Result
 I don’t have a car so I just pretend I am a sleepy driver. Normal blinking eyes wont trigger the alert. The alert will be triggered only if I start falling sleep. Can adjust the threshold value to adjust the sensitivity of the detector
 https://youtu.be/ovw8XbMeDPM
+
+### Discussion
+1. The FPS of my detector is maintained around 19–25fps, depending on hardware. For me this fps is smooth enough. But imagine if a driver is driving super fast like at 100km/h, this fps maybe not enough.
+2. What happen if the driver wear a sun glasses? The detector will be an epic fail because we can’t capture the Eye Aspect ratio. We should develop another metrics, such as monitoring the head movement of the driver. But in practical, how many drivers will fall asleep under bright sunlight?
+3. What happen if the driver have small eyes. Honestly this will really affect the result (I try to stimulate this situation). The solution is to fine tune the threshold value of the Eye Aspect ratio.
+4. What happen if the driver wearing colored contact lens? It wont affect as long as dlib landmark detector can detect the eyes.
+5. To improve the detector, we can assign more threshold Eye Aspect ratio to classify the drowsiness of the driver. More several drowsiness comes with louder alarm or integrate with the car speed control system.
