@@ -35,3 +35,9 @@ https://youtu.be/ovw8XbMeDPM
 3. What happen if the driver have small eyes. Honestly this will really affect the result (I try to stimulate this situation). The solution is to fine tune the threshold value of the Eye Aspect ratio.
 4. What happen if the driver wearing colored contact lens? It wont affect as long as dlib landmark detector can detect the eyes.
 5. To improve the detector, we can assign more threshold Eye Aspect ratio to classify the drowsiness of the driver. More several drowsiness comes with louder alarm or integrate with the car speed control system.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+### More about me
+[[:pencil:My Medium]](https://medium.com/@patrickhk)<br/>
+[[:house_with_garden:My Website]](https://www.fiyeroleung.com/)<br/>
+[[:space_invader:	My Github]](https://github.com/fiyero)<br/>
